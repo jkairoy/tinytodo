@@ -2,7 +2,7 @@
 
 <img src="https://imgur.com/CX1ynsq.png"
      alt="Todo Demo"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px; height: 80px;" />
 
 ## Installation
 - git clone https://github.com/jkairoy/tinytodo.git
