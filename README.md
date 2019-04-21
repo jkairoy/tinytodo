@@ -1,5 +1,9 @@
 # Tiny Todo
 
+<img src="markdownmonstericon.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
 ## Installation
 - git clone https://github.com/jkairoy/tinytodo.git
 - yarn / npm install
