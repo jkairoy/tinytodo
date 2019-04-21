@@ -1,0 +1,117 @@
+.header {
+  width: 100%;
+  height: 38px;
+  top: 0;
+  -webkit-app-region: drag;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.marginhorizontal {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.itemcontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.todonote {
+  -webkit-user-select: none;
+  margin-left: 10px;
+  font-weight: 200;
+  outline: none;
+  width: 80%;
+}
+
+.listcontainer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  top: 0;
+  z-index: 200;
+  font-size: 24px;
+  font-weight: 300;
+  width: 40px;
+  height: 38px;
+  -webkit-app-region: no-drag;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.14s;
+}
+.circle:hover {
+  background-color: #eaeaea;
+}
+
+
+.edit {
+  color: #5b5b5b;
+  border: none;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: none;
+  width: auto;
+  font-weight: 200;
+  margin-left: 9px;
+  outline: none;
+}
+
+.donecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.trashbin {
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.14s;
+  margin-bottom: 7px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.trashbin:hover {
+  background-color: #eaeaea;
+}
+
+.spacer {
+  height: 38px;
+}
+
+.spacerbottom {
+  height: 20px;
+}
+
+.time {
+  color: #77abff;
+}
+
+.priority {
+  color: #00d130;
+}
