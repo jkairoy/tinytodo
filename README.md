@@ -1,16 +1,36 @@
 # Tiny Todo
 
 ## Installation
-- git clone https://github.com/jkairoy/tinytodo.git
-- yarn / npm install
-- yarn package
-- open installer from release folder
+```bash
+git clone https://github.com/jkairoytinytodo.git
+```
+```bash
+yarn install
+# or
+npm install
+```
+```bash
+yarn package
+# or
+npm package
+```
+Open installer from release folder
 
 ## Development
-- git clone https://github.com/jkairoy/tinytodo.git
-- yarn / npm install
-- yarn dev or npm start
+```bash
+git clone https://github.com/jkairoytinytodo.git
+```
+```bash
+yarn install
+# or
+npm install
+```
 
+```bash
+yarn dev
+# or
+npm start
+```
 ## Features
 - Items are automatically sorted by date and importance
 - Dates are given in the form of weekdays i.e. "Wednesday", "Next thursday", etc, capitalization is not important
